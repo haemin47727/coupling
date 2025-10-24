@@ -57,6 +57,8 @@ Step 3: Set Up the Java Backend
 - Copy the WAR file into Tomcat’s webapps/ folder
 - Start Tomcat using startup.bat (Windows) or startup.sh (Mac/Linux)
 
+Go to my Java Backend Project for more details regarding project progression.
+
 ### 🔧 Important: Update Backend IP Address
 
 This app connects to a Java servlet backend running on your local machine. To make it work:
