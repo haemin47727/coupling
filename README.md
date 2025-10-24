@@ -1,6 +1,6 @@
 # 💑 Coupling
 
-**Coupling** is my first project and a beginner-friendly mobile app built with React Native (Expo) and a Java servlet backend. It helps couples remember important details about each other — birthdays, names, relationship status — so they can be more mindful, considerate, and plan for each other.
+**Coupling** is my first project and a beginner-friendly android mobile app built with React Native (Expo) and a Java servlet backend. It helps couples remember important details about each other — birthdays, names, relationship status — so they can be more mindful, considerate, and plan for each other.
 
 ---
 
