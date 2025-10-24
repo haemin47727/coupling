@@ -32,7 +32,7 @@ This app connects to a Java servlet backend running on your local machine. To ma
 1. Find your local IP address (e.g., `192.168.1.5`)
 2. Open `register.js` under app and (tabs) 
 3. Replace the backend URL with your IP:
-...fetch('http://<your-ip-address>:8081/coupleapp-1.0-SNAPSHOT/register', ...)
+...fetch('http://your-ip-address:8081/coupleapp-1.0-SNAPSHOT/register', ...)
 
 ## 🚀 Getting Started
 Step 1: clone the repo
