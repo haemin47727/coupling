@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# 💑 Coupling
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Coupling** is my first project and a beginner-friendly mobile app built with React Native (Expo) and a Java servlet backend. It helps couples remember important details about each other — birthdays, names, relationship status — so they can be more mindful, considerate, and plan for each other.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 📋 Register couple profiles with name, email, birthday, and status
+- 📲 Mobile frontend built with Expo and React Native
+- 🧠 Backend powered by Java servlets and MySQL Workbench
+- 🖥️ Local testing with Tomcat server
+- 🔐 Privacy-conscious design — no cloud storage required
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+| Layer        | Technology              |
+|--------------|--------------------     |
+| Frontend     | React Native (Expo)     |
+| Backend      | Java Servlet (IntelliJ) |
+| Database     | MySQL                   |
+| Server       | Apache Tomcat           |
+| IDE          | Visual Studio Code      |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
+### 🔧 Important: Update Backend IP Address
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This app connects to a Java servlet backend running on your local machine. To make it work:
 
-## Get a fresh project
+1. Find your local IP address (e.g., `192.168.1.5`)
+2. Open `register.js` under app and (tabs) 
+3. Replace the backend URL with your IP:
+...fetch('http://<your-ip-address>:8081/coupleapp-1.0-SNAPSHOT/register', ...)
 
-When you're ready, run:
+## 🚀 Getting Started
+Step 1: clone the repo
+git clone https://github.com/yourusername/coupling.git
+cd coupling
+Step 2: Set Up the Mobile Frontend (Expo)
+2.1 Install Node.js and npm
+If you don’t have them yet, download and install from nodejs.org
+2.2 Install Expo CLI (optional but helpful)
+2.3 Install project dependencies
+2.4 Start the Expo development server
+: npx expo start
+2.5 Run the app on your phone
+- Install Expo Go from the App Store or Google Play
+- Scan the QR code from your browser window
+- Your app will launch instantly
+Make sure your phone and computer are on the same Wi-Fi network
+Step 3: Set Up the Java Backend
+3.1 Install Apache Tomcat
+3.2 Build the WAR file
+3.3 Deploy to Tomcat
+- Copy the WAR file into Tomcat’s webapps/ folder
+- Start Tomcat using startup.bat (Windows) or startup.sh (Mac/Linux)
 
-```bash
-npm run reset-project
-```
+### 🔧 Important: Update Backend IP Address
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This app connects to a Java servlet backend running on your local machine. To make it work:
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Find your local IP address (e.g., `192.168.1.5`)
+2. Open `register.js` under app and (tabs) 
+3. Replace the backend URL with your IP:
+...fetch('http://<your-ip-address>:8081/coupleapp-1.0-SNAPSHOT/register', ...)
